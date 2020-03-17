@@ -13,13 +13,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String[] xmlList = new String[6];
+        String[] xmlList = new String[9];
         xmlList[0] = "<tag1>";
         xmlList[1] = "text1";
         xmlList[2] = "</tag1>";
         xmlList[3] = "<tag2>";
         xmlList[4] = "text2";
         xmlList[5] = "</tag2>";
+        xmlList[6] = "<tag3>";
+        xmlList[7] = "text3";
+        xmlList[8] = "</tag3>";
+
 
         Document xml = new XML(xmlList);
 
@@ -38,6 +42,7 @@ public class Main {
         pc2.adaugaProcesor(pc1);
         pc2.adaugaProcesor(c3);
 
+        System.out.println(pc1.proceseaza(documente));
         System.out.println(pc2.proceseaza(documente));
     }
 }
