@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
 
         String[] xmlList = new String[9];
         xmlList[0] = "<tag1>";
