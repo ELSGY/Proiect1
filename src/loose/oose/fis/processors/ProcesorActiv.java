@@ -6,11 +6,11 @@ import java.util.ArrayList;
 
 public class ProcesorCautare implements Procesor {
     private String text;
-    private int prioritate;
+    private int prioritate=1;
 
-    public ProcesorCautare(String text,int prioritate) {
+    public ProcesorCautare(String text) {
         this.text = text;
-	this.prioritate=prioritate;
+	
     }
 
     @Override
@@ -30,7 +30,7 @@ public class ProcesorCautare implements Procesor {
     }
 
     int prioritate(){
-	return prioritate;
+	return 1;
    }
 
 }

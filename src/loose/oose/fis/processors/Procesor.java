@@ -6,4 +6,5 @@ import java.util.ArrayList;
 
 public interface Procesor {
     int proceseaza(ArrayList<Document> documente);
+    int prioritate(); 
 }

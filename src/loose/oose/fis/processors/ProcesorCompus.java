@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class ProcesorCompus implements Procesor {
     private ArrayList<Procesor> procesoare = new ArrayList<>();
-
+  
     public void adaugaProcesor(Procesor procesor) {
         procesoare.add(procesor);
     }
@@ -21,4 +21,10 @@ public class ProcesorCompus implements Procesor {
 
         return res;
     }
+
+
+    int prioritate(){
+	return -1;
+   }
+
 }
