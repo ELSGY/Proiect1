@@ -13,7 +13,7 @@ public class ProcesorCautare implements Procesor {
 	this.prioritate=prioritate;
     }
 
-    @Override
+
     public int proceseaza(ArrayList<Document> documente) {
         int res = 0;
 

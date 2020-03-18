@@ -4,11 +4,11 @@ import loose.oose.fis.documents.Document;
 
 import java.util.ArrayList;
 
-public class ProcesorCautare implements Procesor {
+public class ProcesorActiv implements Procesor {
     private String text;
     private int prioritate=1;
 
-    public ProcesorCautare(String text) {
+    public ProcesorActiv(String text) {
         this.text = text;
 	
     }
